@@ -21,12 +21,21 @@
     <ClCompile Include="Network\TCPServer.cpp">
       <Filter>Quelldateien</Filter>
     </ClCompile>
+    <ClCompile Include="Network\Client.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Config\Config.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
     <ClInclude Include="Network\TCPServer.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\Client.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkingMgr.h">
       <Filter>Headerdateien</Filter>
     </ClInclude>
   </ItemGroup>

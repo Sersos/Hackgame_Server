@@ -10,6 +10,11 @@ int main()
 		isRunning = true;
 	}
 
+	//incoming connection manager
+
+
+
+
 	while (isRunning)
 	{
 		std::string command;		

@@ -80,10 +80,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Network\Client.cpp" />
     <ClCompile Include="Network\TCPServer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Config\Config.h" />
+    <ClInclude Include="Network\Client.h" />
+    <ClInclude Include="Network\NetworkingMgr.h" />
     <ClInclude Include="Network\TCPServer.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
