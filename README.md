@@ -1,1 +1,4 @@
-# Hackgame_Server - The Server application for the game
+# Hackgame_Server
+
+Server application
+
