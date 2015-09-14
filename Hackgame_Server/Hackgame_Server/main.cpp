@@ -1,11 +1,11 @@
-
-#include <SFML\Network.hpp>
-#include "Config.h"
+#include "TCPServer.h"
 
 int main()
 {
-	sf::TcpListener server;
-	server.listen(SERVER_PORT);
+	TCPServer server;
+	server.Start();
+
+	std::cin.get();
 	
 	return 0;
 }

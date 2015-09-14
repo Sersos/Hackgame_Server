@@ -80,6 +80,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Network\TCPServer.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Config\Config.h" />

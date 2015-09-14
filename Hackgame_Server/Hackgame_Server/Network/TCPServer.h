@@ -13,7 +13,6 @@ public:
 private:
 	sf::TcpListener m_server;
 
-
 };
 
 #endif
