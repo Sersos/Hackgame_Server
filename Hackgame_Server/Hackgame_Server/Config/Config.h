@@ -7,3 +7,4 @@
 #define LOG_INFO(text) { std::cout << "Info: " << text << std::endl; }
 #define LOG_WARNING(x) { std::cout << "Warning: " << x << std::endl; }
 #define LOG_ERROR(x) { std::cout << "ERROR: " << x << std::endl; }
+#define LOG_SPACE() { std::cout << " " << std::endl; }

@@ -10,6 +10,8 @@ public:
 
 	bool Start();
 
+	sf::TcpListener* GetServer(); 
+
 private:
 	sf::TcpListener m_server;
 
