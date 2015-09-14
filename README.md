@@ -1,4 +1,4 @@
 # Hackgame_Server
 
-Server application
+Server application for the game. WIP!
 
